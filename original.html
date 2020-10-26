@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bun Bun Bake Shop</title>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" href="CSS/mainStructure.css">
+    <link rel="stylesheet" href="CSS/productStyling.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Top Navigation -->
+<div id="topNav-desktop">
+    <div id="topNavContent">
+        <div id="topNavLogo">
+            <a href="index.html" class="topNavLink" id="logo">
+                <img src="images/logoCupcake.png" alt="Image of cupcake" id="websiteLogo">
+                BUN BUN BAKE SHOP
+            </a>
+        </div>
+        <div id="topNavLinks">
+            <a href="index.html" class="topNavLink" id="homePage">HOME</a>
+            <li class="shopDropDown topNavLink">
+                <a href="./productListPage.html" class="topNavLink dropDownBtn" id="shop">SHOP</a>
+                <div class="shopCategories">
+                    <a href="#">ORIGINAL</a>
+                    <a href="originalGF.html">ORIGINAL GF</a>
+                    <a href="#" class="isDisabled">BLACKBERRY</a>
+                    <a href="#" class="isDisabled">CARAMEL PECAN</a>
+                    <a href="#" class="isDisabled">PUMPKIN SPICE</a>
+                    <a href="#" class="isDisabled">WALNUT</a>
+                </div>
+            </li>
+            <a href="" class="topNavLink" id="cart"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </div>
+</div>
+<!-- Original Page Banner -->
+<div class="productBanner-desktop" id="originalBanner">
+    <div class="productTitleContainer">
+    </div>
+</div>
+<!-- Original Page Body -->
+<article class="productBody">
+    <div class="productContent">
+        <!-- Image Container -->
+        <div class="productImageContainer">
+            <div class="productImagesPositionContainer">
+                <div class="mainImgContainer">
+                    <img src="images/original2.jpg" alt="Image of Vanilla Cupcake" class="productImage">
+                </div>
+                <div class="additionImgContainer">
+                    <div class="positionSmallImage">
+                        <img src="images/originalMini1.jpg" alt="Image of Vanilla Cupcake 1" class="miniImage" id="originalImage2">
+                        <img src="images/originalMini2.jpg" alt="Image of Vanilla Cupcake 2" class="miniImage" id="originalImage3">
+                        <img src="images/originalMini3.jpg" alt="Image of Vanilla Cupcake 3" class="miniImage" id="originalImage4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Text Container -->
+        <div class="productVerbageContainer">
+            <div class="productPositionContainer">
+                <h1 class="productTitle">ORIGINAL</h1>
+                <p class="productVerbage">
+                    White vanilla cake with a vanilla buttercream frosting.
+                </p>
+                <h3 class="ingredientsLabel">Ingredients</h3>
+                <p>
+                    all purpose flour, sugar, canola oil, milk, eggs, baking soda, salt, vanilla extract, powder sugar, butter
+                </p>
+                <form>
+                    <label for="glazeType" class="inputLabel" id="glazeLabel">Glaze</label>
+                    <div id="glazePositionContainer">
+                        <select name="glazeType" id="glazeType">
+                            <option value="" disabled selected>Select glaze type...</option>
+                            <option value="1">None</option>
+                            <option value="2">Vanilla</option>
+                            <option value="3">Chocolate</option>
+                        </select>
+                    </div>
+                    <label for="pastryQty" class="inputLabel" id="pastryQtyLabel">Quantity</label>
+                    <div id="qtyPositionContainer">
+                        <select name="pastryQty" id="pastryQty">
+                            <option value="" disabled selected>Select quantity...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <button class="grow" id="qtySubmitButton"> ADD TO CART</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</article>
+<!-- Bottom Nav -->
+<div id="bottomNav">
+    <div id="btmNavCredit">
+        <div class="bottomNavContainer" id="photoCred">
+            <p id="photoCredWords">Photos by Polina Tankilevitch, Vojtech Okenka, <br> Magda Ehlers from Pexels </p>
+        </div>
+    </div>
+
+    <div id="btmNavMenu">
+        <div class="bottomNavContainer" id="bottomMain">
+            <a href="index.html" class="bottomLink" id="homePageBottom">Home</a>
+            <a href="productListPage.html" class="bottomLink active" id="shopBottom">Shop</a>
+        </div>
+        <div class="bottomNavContainer" id="products">
+            <a href="#" class="bottomLink" id="productOriginalBottom">Original</a>
+            <a href="originalGF.html" class="bottomLink" id="productGFBottom">Original GF</a>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="https://use.fontawesome.com/releases/v5.15.0/js/all.js" data-auto-replace-svg="nest"></script>
+</html>

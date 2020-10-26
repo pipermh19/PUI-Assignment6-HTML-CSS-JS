@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bun Bun Bake Shop</title>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" href="CSS/mainStructure.css">
+    <link rel="stylesheet" href="CSS/productPageStyling.css" class="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Top Nav -->
+<div id="topNav-desktop">
+    <div id="topNavContent">
+        <a href="#" class="topNavLink" id="logo">
+            <img src="images/logoCupcake.png" alt="Image of cupcake" id="websiteLogo">
+            BUN BUN BAKE SHOP
+        </a>
+        <!-- Links Container -->
+        <div id="topNavLinks">
+            <a href="index.html" class="topNavLink" id="homePage">HOME</a>
+            <li class="shopDropDown topNavLink">
+                <a href="productListPage.html" class="topNavLink dropDownBtn active" id="shop">SHOP</a>
+                <div class="shopCategories">
+                    <a href="original.html">ORIGINAL</a>
+                    <a href="originalGF.html">ORIGINAL GF</a>
+                    <a href="#" class="isDisabled">BLACKBERRY</a>
+                    <a href="#" class="isDisabled">CARAMEL PECAN</a>
+                    <a href="#" class="isDisabled">PUMPKIN SPICE</a>
+                    <a href="#" class="isDisabled">WALNUT</a>
+                </div>
+            </li>
+            <a href="" class="topNavLink" id="cart"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </div>
+</div>
+<!-- Product Banner -->
+<div id="productpageBanner-desktop">
+    <div id="pageTitle">
+        SHOP
+    </div>
+</div>
+<!-- Product Page Body -->
+<article id="productPageMainBody">
+    <!-- Top Three Product Cards Container -->
+    <div class="productContainer" id="productContainerTop">
+        <!-- Product Card Original -->
+        <a href="original.html" class="productLink" id="originalLink">
+            <div class="productCard grow">
+                <img src="images/original2.jpg" alt="image of original cake" class="productImg" id="original">
+                <div class="labelContainer">
+                    <div class="productLabel">
+                        <h2> ORIGINAL </h2>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- Product Card Walnut -->
+        <a href="#" class="productLink" id="walnutLink">
+            <div class="productCard isDisabled">
+                <img src="images/walnut.jpg" alt="image of walnuts" class="productImg" id="walnut">
+                <div class="labelContainer">
+                    <div class="productLabel">
+                        <h2> WALNUT </h2>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- Product Card Pumpkin -->
+        <a href="#" class="productLink" id="pumpkinLink">
+            <div class="productCard isDisabled">
+                <img src="images/pumpkin.jpg" alt="image of cinnamon and sugar" class="productImg" id="pumpkin">
+                <div class="labelContainer">
+                    <div class="productLabel">
+                        <h2> PUMPKIN SPICE </h2>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!-- Bottom Three Product Cards Container -->
+
+        <div class="productContainer" id="productContainerBottom">
+        <!-- Product Card Original GF -->
+        <a href="originalGF.html" class="productLink" id="originalGfLink">
+            <div class="productCard grow">
+                <img src="images/original.jpg" alt="image of original gf cake" class="productImg" id="originalGf">
+                <div class="labelContainer">
+                    <div class="productLabel">
+                        <h2>ORIGINAL (GF)</h2>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- Product Card Blackberry -->
+        <a href="#" class="productLink" id="blackberryLink">
+            <div class="productCard isDisabled">
+                <img src="images/blackberry.jpg" alt="image of blackberry tart" class="productImg" id="blackberry">
+                <div class="labelContainer">
+                    <div class="productLabel">
+                        <h2> BLACKBERRY </h2>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- Product Card Caramel -->
+        <a href="#" class="productLink" id="caramelLink">
+            <div class="productCard isDisabled">
+                <img src="images/caramel.jpg" alt="image of caramel" class="productImg" id="caramel">
+                <div class="labelContainer">
+                    <div class="productLabel">
+                        <h2> CARAMEL </h2>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+</article>
+
+<!-- Bottom Nav -->
+<div id="bottomNav">
+    <div id="btmNavCredit">
+        <div class="bottomNavContainer" id="photoCred">
+            <p id="photoCredWords">Photos by Vojtech Okenka,kaboompics.com, <br> Mareefe, Angele J from Pexels </p>
+        </div>
+    </div>
+
+    <div id="btmNavMenu">
+        <div class="bottomNavContainer" id="bottomMain">
+            <a href="index.html" class="bottomLink" id="homePageBottom">Home</a>
+            <a href="#" class="bottomLink active" id="shopBottom">Shop</a>
+        </div>
+        <div class="bottomNavContainer" id="products">
+            <a href="original.html" class="bottomLink" id="productOriginalBottom">Original</a>
+            <a href="originalGF.html" class="bottomLink" id="productGFBottom">Original GF</a>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="https://use.fontawesome.com/releases/v5.15.0/js/all.js" data-auto-replace-svg="nest"></script>
+</html>
