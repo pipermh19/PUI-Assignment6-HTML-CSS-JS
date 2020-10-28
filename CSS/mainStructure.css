@@ -12,6 +12,9 @@ a{
     text-align: center;
     text-decoration: none;
 }
+a:hover{
+    text-decoration: none;
+}
 /* top nav */
 #topNav-desktop{
     height: 7vh;

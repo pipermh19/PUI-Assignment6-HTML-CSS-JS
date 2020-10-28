@@ -33,37 +33,103 @@
                     <a href="#" class="isDisabled">WALNUT</a>
                 </div>
             </li>
-            <a href="#" class="topNavLink" id="cart"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#" class="topNavLink" id="cart"><i class="fas fa-shopping-cart"></i>
+                <div id="cartNumber"></div>
+            </a>
         </div>
     </div>
 </div>
 <!-- Homepage Body -->
 <article id="cartPageMainBody">
     <div id="cartPageContent">
+        <H1 id="cartTitle">Shopping Cart</H1>
         <!-- Text Container -->
-        <div id="itemsContainer">
-            <div id="itemsPositionContainer">
-                <div class="itemDiv">
-                    <div class="itemImageDiv">
-                        <img src="./images/original.jpg" alt="">
-                    </div>
-                    <div class="itemDetailsDiv">
-                        <div class="left">
-                            <p>
-                                Original Bun Bun <br>
-                                $4.00 (each)<br>
-                                QTY: 3
-                            </p>
+        <div class="cartPositionContainer">
+            <div class="itemList">
+                <div class="itemsContainer">
+                    <div class="itemsPositionContainer">
+                        <div class="itemDiv">
+                            <div class="itemImageDiv">
+                                <img src="./images/original.jpg" alt="">
+                            </div>
+                            <div class="itemDetailsDiv">
+                                <div class="left">
+                                    <p>
+                                        Original Bun Bun <br>
+                                        $4.00 (each)<br>
+                                        QTY: 3
+                                    </p>
+                                </div>
+                                <div class="right">
+                                    <i class="fas fa-times"></i>
+                                    <p>$12.00</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="right">
-                            <i class="fas fa-times"></i>
-                            <p>$12.00</p>
+                    </div>
+                </div>
+                <div class="itemsContainer">
+                    <div class="itemsPositionContainer">
+                        <div class="itemDiv">
+                            <div class="itemImageDiv">
+                                <img src="./images/original2.jpg" alt="">
+                            </div>
+                            <div class="itemDetailsDiv">
+                                <div class="left">
+                                    <p>
+                                        Original Bun Bun <br>
+                                        $4.00 (each)<br>
+                                        QTY: 3
+                                    </p>
+                                </div>
+                                <div class="right">
+                                    <i class="fas fa-times"></i>
+                                    <p>$12.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemsContainer">
+                    <div class="itemsPositionContainer">
+                        <div class="itemDiv">
+                            <div class="itemImageDiv">
+                                <img src="./images/caramel.jpg" alt="">
+                            </div>
+                            <div class="itemDetailsDiv">
+                                <div class="left">
+                                    <p>
+                                        Original Bun Bun <br>
+                                        $4.00 (each)<br>
+                                        QTY: 3
+                                    </p>
+                                </div>
+                                <div class="right">
+                                    <i class="fas fa-times"></i>
+                                    <p>$12.00</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="totalContainer">
+                <div id="labels">
+                    <div id="subtotal">Subtotal:</div>
+                    <div id="shipping">Shipping:</div>
+                    <div id="tax">Tax:</div>
+                    <div id="total">Total:</div>
+                </div>
+                <div id="output">
+                    <div id="subtotalOutput">$36.00</div>
+                    <div id="shippingOutput">$5.00</div>
+                    <div id="taxOutput">$3.50</div>
+                    <div id="totalOutput">$44.50</div>
+                </div>
+            </div>
         </div>
-        <!-- CheckOut Container -->
+
     </div>
 </article>
 <!-- Bottom Nav -->

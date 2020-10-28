@@ -1,4 +1,21 @@
 $( document ).ready(function() {
+    let glazeValue;
+    let qty;
+    let cartValue;
+    let storageNum;
+    let cartDisplay;
+
+
+    cartDisplay = window.localStorage.getItem('cartQty');
+    if (cartDisplay){
+        cartValue = parseInt(cartDisplay);
+    } else{
+        cartValue = 0;
+    }
+
+    $('#cartNumber').empty();
+    $('#cartNumber').append(cartDisplay);
+
     let productDetails = [
         {
             "description": "Cinnamon wrapped in our original smooth, tender dough.",
@@ -17,8 +34,7 @@ $( document ).ready(function() {
         },
     ]
 
-    let glazeValue;
-    let qty;
+
 // onchange of selector... grabs value
     $('select#glazeType').on('change', function() {
         glazeValue = this.value;
@@ -32,7 +48,7 @@ $( document ).ready(function() {
     });
 
     $('select#pastryQty').on('change', function() {
-        qty = this.value;
+        qty = parseInt(this.value);
     });
 
     $('#qtySubmitButton').on('click', function() {
@@ -55,6 +71,13 @@ $( document ).ready(function() {
                 $('.alert').addClass("none")
             }, 5000);
         }
+        cartValue += qty;
+        storageNum = cartValue.toString();
+        console.log("The Cart Value" + cartValue);
+        window.localStorage.setItem('cartQty', storageNum);
+        cartDisplay = window.localStorage.getItem('cartQty');
+        $('#cartNumber').empty();
+        $('#cartNumber').append(cartDisplay);
     });
 });
 

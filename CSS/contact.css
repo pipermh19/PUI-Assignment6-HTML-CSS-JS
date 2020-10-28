@@ -75,6 +75,11 @@ article{
 }
 #contactSubmit{
     width: 100%;
-    background-color: #c16e80;
+    background-color: #588e9a;
     color: #ffffff;
+}
+#contactSubmit:hover{
+    background-color: #32606b;
+    color: #ffffff;
+    cursor: pointer;
 }

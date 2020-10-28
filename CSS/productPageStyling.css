@@ -14,9 +14,10 @@
 #pageTitle{
     display: flex;
     font-size: 3rem;
-    font-weight: 700;
     justify-content: center;
-    width: 50%;
+    width: 30%;
+    height: 30%;
+    background-color: #ffffffad;
 }
 /* centers body content */
 #productPageMainBody{
@@ -37,6 +38,10 @@
     flex-direction: column;
     margin: 20px;
     width: 276px;
+}
+#titlePosition{
+    margin:auto;
+    font-weight: 500;
 }
 .productCard.isDisabled:hover{
     cursor: not-allowed;

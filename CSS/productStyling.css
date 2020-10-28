@@ -44,6 +44,7 @@
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    margin: auto;
 }
 .productImagesPositionContainer{
     width: 90%;
@@ -117,14 +118,14 @@ select{
 #qtySubmitButton{
     width: 30%;
     height: 2rem;
-    background-color: #c16e80;
+    background-color: #588e9a;
     border: none;
     border-radius: 3px;
     color: #fff;
-    font-weight: 700;
 }
 #qtySubmitButton:hover{
-    background-color: #ae4159;
+    background-color: #32606b;
+    color: #ffffff;
     cursor: pointer;
 }
 .alert.none{
