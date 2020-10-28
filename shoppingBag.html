@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="images/favicon.png"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/mainStructure.css">
-    <link rel="stylesheet" href="CSS/contact.css" class="stylesheet">
+    <link rel="stylesheet" href="CSS/cart.css" class="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -21,7 +21,7 @@
         </div>
         <div id="topNavLinks">
             <a href="index.html" class="topNavLink" id="homePage">HOME</a>
-            <a href="#" class="topNavLink active" id="contactUs">CONTACT US</a>
+            <a href="contact.html" class="topNavLink" id="contactUs">CONTACT US</a>
             <li class="shopDropDown topNavLink">
                 <a href="productListPage.html" class="topNavLink dropDownBtn" id="shop">SHOP</a>
                 <div class="shopCategories">
@@ -33,54 +33,37 @@
                     <a href="#" class="isDisabled">WALNUT</a>
                 </div>
             </li>
-            <a href="shoppingBag.html" class="topNavLink" id="cart"><i class="fas fa-shopping-cart"></i></a>
-        </div>
-    </div>
-</div>
-<!-- Homepage Banner -->
-<div id="contactBanner-desktop">
-    <div id="contactTitleContainer">
-        <div id="contactTitle">
-            <h1 id="contactTitleWord">Let's Connect</h1>
+            <a href="#" class="topNavLink" id="cart"><i class="fas fa-shopping-cart"></i></a>
         </div>
     </div>
 </div>
 <!-- Homepage Body -->
-<article id="contactPageMainBody">
-    <div id="contactPageContent">
-
+<article id="cartPageMainBody">
+    <div id="cartPageContent">
         <!-- Text Container -->
-        <div id="contactVerbageContainer">
-            <div id="positionContainer">
-                <form>
-                    <div id="nameDiv">
-                        <div class="form-group">
-                            <label for="firstNameInput">First name</label>
-                            <input type="text" class="form-control" id="firstNameInput" placeholder="Enter first name">
+        <div id="itemsContainer">
+            <div id="itemsPositionContainer">
+                <div class="itemDiv">
+                    <div class="itemImageDiv">
+                        <img src="./images/original.jpg" alt="">
+                    </div>
+                    <div class="itemDetailsDiv">
+                        <div class="left">
+                            <p>
+                                Original Bun Bun <br>
+                                $4.00 (each)<br>
+                                QTY: 3
+                            </p>
                         </div>
-                        <div class="form-group">
-                            <label for="lastNameInput">First name</label>
-                            <input type="text" class="form-control" id="lastNameInput" placeholder="Enter last name">
+                        <div class="right">
+                            <i class="fas fa-times"></i>
+                            <p>$12.00</p>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter email here">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter message here"></textarea>
-                    </div>
-                    <div id="submitButtonContainer">
-                        <button type="submit" class="btn" id="contactSubmit">Submit</button>
-                    </div>
-                </form>
+                </div>
             </div>
         </div>
-        <!-- Image Container -->
-        <div id="imageContainer">
-            <img src="images/homePageBodyImage.jpg" alt="Body Image of A Woman Baking" id="homepageImage">
-        </div>
+        <!-- CheckOut Container -->
     </div>
 </article>
 <!-- Bottom Nav -->

@@ -20,8 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9ba4893-6099-4604-9f95-43e5c0a5f66b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSS/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detailPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingBag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/productStyling.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/productStyling.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blackberry.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/blackberry.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/caramel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/caramel.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/homePageBodyImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/homePageBodyImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/originalGFBanner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/originalGFBanner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/originalMini1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/originalMini1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/originalMini2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/originalMini2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/originalMini3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/originalMini3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pumpkin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/pumpkin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/walnut.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/walnut.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/original.html" beforeDir="false" afterPath="$PROJECT_DIR$/original.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/originalGF.html" beforeDir="false" afterPath="$PROJECT_DIR$/originalGF.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productListPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/productListPage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +54,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -68,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603651493483</updated>
-      <workItem from="1603651495050" duration="6937000" />
+      <workItem from="1603651495050" duration="22547000" />
     </task>
     <servers />
   </component>

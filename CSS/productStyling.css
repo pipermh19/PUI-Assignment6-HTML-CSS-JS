@@ -104,7 +104,7 @@
 }
 /* select input */
 select{
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 40%;
 }
 #glazePositionContainer{
@@ -121,10 +121,18 @@ select{
     border: none;
     border-radius: 3px;
     color: #fff;
-    font-size: 1.1rem;
     font-weight: 700;
 }
 #qtySubmitButton:hover{
     background-color: #ae4159;
     cursor: pointer;
 }
+.alert.none{
+    display: none;
+}
+
+.alert{
+    display: block;
+    text-align: center;
+}
+

@@ -1,0 +1,53 @@
+/* main content */
+article{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+/* horizontally justifies content */
+#cartPageContent{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+/* main image positioned left */
+#imageContainer{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin-right: 2rem;
+    width: 50%;
+}
+/* written content left of container */
+
+#itemsPositionContainer{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 60%;
+    background-color: pink;
+    padding: 1rem;
+}
+#itemsContainer{
+    display: flex;
+    justify-content: center;
+}
+.itemImageDiv{
+    width: 20%;
+    margin-right: 2rem;
+}
+.itemImageDiv img{
+    width: 100%;
+}
+.itemDiv{
+    display: flex;
+}
+.itemDetailsDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+.right{
+    text-align: right;
+}
+
