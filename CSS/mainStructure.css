@@ -15,6 +15,15 @@ a{
 a:hover{
     text-decoration: none;
 }
+a.bottomNavProd{
+    padding: 6px 35px;
+}
+a.bottomLink:hover{
+    color: #ace1ee;
+}
+#productOriginalBottom{
+    padding-top: 14px;
+}
 /* top nav */
 #topNav-desktop{
     height: 7vh;
@@ -95,6 +104,23 @@ li.shopDropDown {
     cursor: not-allowed;
     background-color: #f9f9f9;
 }
+#qtySubmitButton.isDisabled{
+    cursor: not-allowed;
+    background-color: #8d8d8d;
+}
+#qtySubmitButton.isDisabled:hover{
+    cursor: not-allowed;
+    background-color: #8d8d8d;
+}
+#contactSubmit.isDisabled{
+    cursor: not-allowed;
+    background-color: #8d8d8d;
+}
+#contactSubmit.isDisabled:hover{
+    cursor: not-allowed;
+    background-color: #8d8d8d;
+}
+
 .shopDropDown:hover .shopCategories {
     display: block;
 }
@@ -138,3 +164,4 @@ li.shopDropDown {
     cursor: pointer;
     transform: scale(1.1);
 }
+

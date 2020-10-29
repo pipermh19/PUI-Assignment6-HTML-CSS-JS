@@ -62,4 +62,17 @@ article{
     width: 20%;
     justify-content: space-around;
 }
+#recommendations{
+    display: flex;
+    flex-direction: column;
+}
+#recImgCon{
+    margin-top: 1rem;
+    display: flex;
+}
+.recImage{
+    width: 10%;
+    margin-right: 2rem;
+    box-shadow: 12px 10px 15px #cfcfcfdb;
+}
 

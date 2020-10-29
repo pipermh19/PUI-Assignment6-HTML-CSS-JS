@@ -1,11 +1,12 @@
 $( document ).ready(function() {
+    //variables
     let glazeValue;
     let qty;
     let cartValue;
     let storageNum;
     let cartDisplay;
 
-
+    //checks to see if local storage variable exists. If not set to 0;
     cartDisplay = window.localStorage.getItem('cartQty');
     if (cartDisplay){
         cartValue = parseInt(cartDisplay);
@@ -16,6 +17,7 @@ $( document ).ready(function() {
     $('#cartNumber').empty();
     $('#cartNumber').append(cartDisplay);
 
+    //Array to hold descriptions
     let productDetails = [
         {
             "description": "Cinnamon wrapped in our original smooth, tender dough.",
@@ -23,7 +25,12 @@ $( document ).ready(function() {
             "key": "Plain"
         },
         {
-            "description": "Cinnamon wrapped in our original smooth, tender dough. Smothered in our famous cream cheese frosting",
+            "description": "Cinnamon wrapped in our original smooth, tender dough. Smothered in our famous sugar milk frosting",
+            "image": "images/sugarMilkGlaze.jpg",
+            "key": "Sugar"
+        },
+        {
+            "description": "Cinnamon wrapped in our original smooth, tender dough. Smothered in our famous vanilla cream cheese frosting",
             "image": "images/vanillaCinRoll.jpg",
             "key": "Vanilla"
         },
@@ -35,7 +42,7 @@ $( document ).ready(function() {
     ]
 
 
-// onchange of selector... grabs value
+    // onchange of selector... grabs value
     $('select#glazeType').on('change', function() {
         glazeValue = this.value;
         for(let i=0; i<productDetails.length; i++) {
@@ -46,12 +53,15 @@ $( document ).ready(function() {
             }
         }
     });
-
+    // captures value for qty
     $('select#pastryQty').on('change', function() {
         qty = parseInt(this.value);
     });
 
+    //Actions which happen when user submits form
     $('#qtySubmitButton').on('click', function() {
+
+        //checks to see if qty is undefined. If undefined creates an alert.
         if(qty === undefined){
             $('#alertMessage').empty();
             $('.alert-danger').removeClass("none");
@@ -60,7 +70,12 @@ $( document ).ready(function() {
                 $('.alert').addClass("none")
             }, 5000);
         }
+        //If qty is defined, then adds item to storage. Displays success message.
         else if (qty !== undefined) {
+            cartValue += qty;
+            storageNum = cartValue.toString();
+            console.log("The Cart Value" + cartValue);
+            window.localStorage.setItem('cartQty', storageNum);
             $('#cartMessage').empty();
             if (glazeValue == undefined || glazeValue == "Plain") {
                 glazeValue = 'no';
@@ -71,10 +86,8 @@ $( document ).ready(function() {
                 $('.alert').addClass("none")
             }, 5000);
         }
-        cartValue += qty;
-        storageNum = cartValue.toString();
-        console.log("The Cart Value" + cartValue);
-        window.localStorage.setItem('cartQty', storageNum);
+
+        //Updates cart icon #
         cartDisplay = window.localStorage.getItem('cartQty');
         $('#cartNumber').empty();
         $('#cartNumber').append(cartDisplay);
