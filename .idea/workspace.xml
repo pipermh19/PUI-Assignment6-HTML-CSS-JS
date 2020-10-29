@@ -19,7 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ba4893-6099-4604-9f95-43e5c0a5f66b" name="Default Changelist" comment="" />
+    <list default="true" id="c9ba4893-6099-4604-9f95-43e5c0a5f66b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackberry.html" beforeDir="false" afterPath="$PROJECT_DIR$/blackberry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caramel.html" beforeDir="false" afterPath="$PROJECT_DIR$/caramel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/original.html" beforeDir="false" afterPath="$PROJECT_DIR$/original.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/originalGF.html" beforeDir="false" afterPath="$PROJECT_DIR$/originalGF.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productListPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/productListPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pumpkin.html" beforeDir="false" afterPath="$PROJECT_DIR$/pumpkin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingBag.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingBag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/walnut.html" beforeDir="false" afterPath="$PROJECT_DIR$/walnut.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603651493483</updated>
       <workItem from="1603651495050" duration="22878000" />
-      <workItem from="1603885798447" duration="19522000" />
+      <workItem from="1603885798447" duration="20435000" />
     </task>
     <servers />
   </component>

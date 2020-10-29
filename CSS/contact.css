@@ -49,10 +49,11 @@ article{
     margin-right: 2rem;
     width: 50%;
 }
+/* Map */
 #homepageImage{
     width: 60%;
 }
-/* written content left of container */
+/* Form stlying */
 #contactVerbageContainer{
     display: flex;
     justify-content: center;
